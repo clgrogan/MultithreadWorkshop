@@ -1,4 +1,4 @@
-package mt.creation;
+package thread.creation;
 
 import mt.tools.Tools;
 

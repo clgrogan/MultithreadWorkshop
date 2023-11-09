@@ -1,5 +1,7 @@
 package mt.tools;
 
+import java.util.Random;
+
 public interface Tools {
 
 
@@ -12,5 +14,10 @@ public interface Tools {
                 + ", " + aThread.getPriority()
                 + ", " + aThread.getState()
         );
+    }
+    static int generateRandomPositiveIntUpToN(int n){
+        Random random = new Random();
+
+        return random.nextInt(n+1);
     }
 }
